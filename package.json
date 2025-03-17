@@ -17,6 +17,8 @@
     "nodemon-watch": "nodemon ./src/app.js",
     "webpack-watch": "webpack --watch --config ./webpack.configure.js",
     "start-dev": "start cmd /k npm run nodemon-watch & start cmd /k npm run webpack-watch",
-    "start-dev-unix": "npm run nodemon-watch & npm run webpack-watch"
+    "start-dev-unix": "npm run nodemon-watch & npm run webpack-watch",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
   }
 }
