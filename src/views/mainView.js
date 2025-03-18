@@ -5,7 +5,7 @@ import { handleScroll, updatePosition } from '../positionAlongPathTools/Position
 import { loadCurveFromJSON } from '../curveTools/CurveMethods.js'
 import { setupRenderer } from '../helpers/RendererHelper.js'
 
-const startingModelPath = '/models/scene.gltf'
+const startingModelPath = 'https://drive.google.com/uc?export=download&id=1qJmB7qtuMYecD640vLlhxp5gQIGubbUp';
 const curvePathJSON = '/models/curvePath.json'
 
 export async function setupScene(canvas) {
